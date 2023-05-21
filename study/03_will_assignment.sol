@@ -1,18 +1,3 @@
-/*
-Exercise:
-1. Create a constructor function which can allocate an initial payable value to the contract upon deplayment. 
-2. Create a function called payout which explicity prohibits outside visibility in the strict sense. 
-3. Write a for loop in the function that iterates over all the wallets of the investors.
-4. While iterating through the wallets the loop should return a transfers of ethers equal to the amounts in each walet.
-(hint: You need to transfer into the investorWallet by checking each investor address matched up to investorWallets of the index)
-5. Write a function called makePayment which can then execute the payout function once deployed. 
-6. Deploy the contract and test for successful transactions. (Hint: watch out for wei conversations!!)
-7. Share your solution in the s#mart-contracts channel in our discord! 
-
-Good luck! The investors are counting on you ;)
-
-*/
-
 pragma solidity >= 0.7.0 < 0.9.0;
 
 contract AddressWallets {
